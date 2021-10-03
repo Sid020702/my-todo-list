@@ -5,8 +5,8 @@ const TodoList = ({ todos, deleteTodo }) => (
         <h4>Your Todos</h4>
         {
             todos.length > 0 ?
-                todos.map((todo, index) => (
-                    <Todo key={index} index={index} desc={todo.desc} title={todo.title} deleteTodo={deleteTodo} />
+                todos.map((todo) => (
+                    <Todo key={todo.desc} desc={todo.desc} title={todo.title} deleteTodo={deleteTodo} />
                 )) :
                 (<span>No Todos to display.</span>)
         }

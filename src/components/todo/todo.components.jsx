@@ -19,8 +19,8 @@ class Todo extends React.Component {
     }
 
     handleClick = () => {
-        let { index, deleteTodo } = this.props
-        deleteTodo(index)
+        let { desc, deleteTodo } = this.props
+        deleteTodo(desc)
 
     }
     render() {
