@@ -5,7 +5,8 @@ class AddTodo extends React.Component {
         super(props)
         this.state = {
             title: '',
-            desc: ''
+            desc: '',
+            class: false
         }
 
     }
