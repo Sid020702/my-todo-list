@@ -53,7 +53,7 @@ class HomePage extends React.Component {
     render() {
         return (
             <div className='homepage'>
-                <h1 className="text-center">Todo list by Sid</h1>
+                <h1 className="text-center">My Todo List</h1>
                 <AddTodo addTodo={this.addTodo} />
                 <TodoList todos={this.state.todos} deleteTodo={this.deletetodo} strikeTodo={this.strikeTodo} />
             </div>)
